@@ -1,0 +1,124 @@
+:root {
+    --accent-color: #2196F3;
+    --headers-color: #212121;
+    --text-color: #757575;
+    --background-whitetext-color: #FFFFFF;
+    --background-grey-color: #F5F4FA;
+    --background-durk-color: #2F303A;
+    --footer-contact-color:  rgba(255, 255, 255, 0.6);
+
+}
+
+body {
+    color: var(--text-color);
+}
+h1,h2,h3,h4,h5,h6 {
+    color: var(--headers-color);
+}
+
+/* логотип компании */
+.logo-accent{
+    color: var(--accent-color);
+}
+.logo{
+    color: var(--headers-color);
+}
+
+/* навигация ссылок */
+.link-nav {
+    color: var(--headers-color);
+}
+.current{
+    color: var(--accent-color);
+}
+.link-nav:hover,
+.link-nav:focus {
+    color: var(--accent-color);
+}
+.link-contact{
+    color: inherit;
+}
+.link-contact:hover,
+.link-contact:focus {
+    color: var(--accent-color);
+}
+
+
+/* секция героя */
+.hero{
+    background-color: var(--background-durk-color);
+}
+.hero-header{
+    color: var(--background-whitetext-color);
+}
+.hero-button{
+    color: var(--background-whitetext-color);
+    background-color: aqua;
+}
+.hero-button:focus,
+.hero-button:hover {
+    background-color: var(--accent-color);
+}
+.hero-button{
+    cursor: pointer;
+}
+
+
+
+/* секция что мы делаем */
+.text-strong {
+    color: var(--text-color);
+}
+
+
+
+/* секция наша команда */
+.our-team {
+    background-color: var(--background-grey-color);
+}
+/* .team-position{
+    color: var(--text-color);
+} */
+
+
+
+/* секция футера */
+.footer{
+    background-color: var(--background-durk-color);
+}
+.logo-footer{
+    color: var(--background-whitetext-color);
+}
+.adress-text{
+    color: var(--background-whitetext-color);
+}
+.link-footer{
+    color: var(--footer-contact-color)
+}
+.adress-text:hover,
+.adress-text:focus {
+    color: var(--accent-color);
+}
+.link-footer:hover,
+.link-footer:focus {
+    color: var(--accent-color);
+}
+
+
+/*////////////////// стили портфолио //////////////////// */
+
+.portfolio-button{
+    color: var(--headers-color);
+    background-color: var(--background-grey-color);
+}
+.portfolio-button:hover,
+.portfolio-button:focus{
+    color: var(--background-whitetext-color);
+    background-color: var(--accent-color);
+}
+.portfolio-button {
+    cursor: pointer;
+}
+.name {
+    color: var(--text-color);
+}
